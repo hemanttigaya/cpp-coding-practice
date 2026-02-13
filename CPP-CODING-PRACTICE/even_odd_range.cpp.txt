@@ -1,0 +1,25 @@
+2. *Even or Odd + Range Check:*
+   Take a number as input.
+
+   * If even and between 1–50 → print “Even in range.”
+   * If even and above 50 → print “Even above range.”
+   * If odd → print “Odd number.”
+
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"enter the number:";
+    cin>>n;
+    
+    if(n%2==0 && n<=50){
+        cout<<"even in the range";
+    }
+    else if(n%2==0 && n>=50){
+        cout<<"even above range";
+    }
+    else{
+        cout<<"odd number";
+    }
+    return 0;
+}

@@ -1,0 +1,24 @@
+3️⃣ Even or Odd (Using Switch)
+
+Take a number and use switch to check:
+
+0 → Even
+
+1 → Odd
+
+#include<iostream>
+using namespace std ;
+int main(){
+    int num;
+    cout<<"enter the number:";
+    cin>>num;
+    
+    switch(num%2){
+        case 0:cout<<"even";
+        break;
+        
+        case 1: cout<<"odd";
+        break;
+    }
+    return 0;
+}

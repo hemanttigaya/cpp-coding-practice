@@ -1,0 +1,19 @@
+   Write a program that takes two numbers as input and prints which number is greater or if they are equal.
+#include<iostream>
+using namespace std ;
+int main(){
+    int n1,n2;
+    cout<<"enter the numeber :";
+    cin>>n1>>n2;
+    if(n1>n2){
+        cout<<"n1 is greater than n2"<<n1<<n2;
+        
+    }
+    else if(n2>n1){
+        cout<<"n2 is greater than n1"<<n1<<n2;
+        
+    }
+    else
+    cout<<"n1 is equal to n2";
+    return 0;
+}
